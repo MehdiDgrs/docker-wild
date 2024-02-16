@@ -1,0 +1,9 @@
+services:
+    app:
+        image: meddeg/hello-app
+    backend:
+        image: express-docker
+        ports:
+            - 5050:5000
+    db:
+        image: mongo 
